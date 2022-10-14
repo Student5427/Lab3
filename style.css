@@ -1,0 +1,29 @@
+.form-signin
+{
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+}
+
+.container
+{
+    border:2px;
+    display:flex;
+    overflow:hidden;
+    font: 22px;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container
+    {
+        display:flex;
+        font: 14px;
+        position:absolute;
+        justify-content: center;
+        align-items: center;
+    }
+} 
